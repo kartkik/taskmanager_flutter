@@ -1,13 +1,14 @@
-// Firebase Options Configuration
+// Default Firebase Options Template
+// Replace placeholders with your own Firebase project configuration from Firebase Console.
+
 import 'package:firebase_core/firebase_core.dart';
 
 class DefaultFirebaseOptions {
   static const FirebaseOptions currentPlatform = FirebaseOptions(
-    apiKey: "AIzaSyAI6XFAOaVKy5c6NRaYjT7Lwv8oi31hP_w",
-    appId: "1:293794530274:web:23323613b4758f7b246fbb",
-    messagingSenderId: "293794530274",
-    projectId: "neufitlog",
-    storageBucket: "neufitlog.firebasestorage.app",
-    authDomain: "neufitlog.firebaseapp.com",
+    apiKey: "YOUR_API_KEY_HERE",
+    appId: "YOUR_APP_ID_HERE",
+    messagingSenderId: "YOUR_SENDER_ID_HERE",
+    projectId: "YOUR_PROJECT_ID_HERE",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
   );
 }
